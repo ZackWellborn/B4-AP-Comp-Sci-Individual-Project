@@ -11,3 +11,12 @@ that would be more math
 how much more idk but
 it would definitely be interesting and really cool to implement for sure
 hm.
+
+also definitely consider everything to be circular and coplanar at first because like
+blehh
+
+so 
+circles & hohmann transfers 
+-> ellipses
+-> slingshots :fear: (could just do 1???? customizable maybe??? hmm)
+-> inclination (if i have like 50 extra hours)
