@@ -10,3 +10,4 @@ This project will be a transfer window calculator. Using a simple model solar sy
 
 yeah
  
+![mockup](images/bozo.png)
