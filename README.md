@@ -9,3 +9,4 @@ This project will be a transfer window calculator. Using a simple model solar sy
 (ill come up with a cooler name for this later probably :P)
 
 yeah
+ 
