@@ -20,3 +20,5 @@ circles & hohmann transfers
 -> ellipses
 -> slingshots :fear: (could just do 1???? customizable maybe??? hmm)
 -> inclination (if i have like 50 extra hours)
+
+https://orbital-mechanics.space/orbital-maneuvers/hohmann-transfer-example.html
