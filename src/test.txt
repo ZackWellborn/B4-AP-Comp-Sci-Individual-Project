@@ -1,1 +1,13 @@
 idk what programming language im going to use lmao
+
+to-do list and resources ig: 
+https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
+https://en.wikipedia.org/wiki/Porkchop_plot
+
+1st do point to point transfers, later take into account planetary flybys and gravitational slingshots
+if u want to
+cuz like
+that would be more math
+how much more idk but
+it would definitely be interesting and really cool to implement for sure
+hm.
