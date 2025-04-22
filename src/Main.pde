@@ -1,6 +1,6 @@
 //test
   Textbox[] boxes = new Textbox[1];
-
+  int[][] graph= new int[50][50];
 void setup() {
  size(500,500); 
  background(0); 
