@@ -22,3 +22,5 @@ circles & hohmann transfers
 -> inclination (if i have like 50 extra hours)
 
 https://orbital-mechanics.space/orbital-maneuvers/hohmann-transfer-example.html
+
+https://forum.processing.org/one/topic/creating-a-graph-from-data.html
