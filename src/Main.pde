@@ -1,4 +1,8 @@
 //test
+
+//variables: 
+int re = 6378; //earth radius
+int rleo = 250 +re; //leo radius from center of earth
   Textbox[] boxes = new Textbox[1];
   int[][] graph= new int[50][50];
 void setup() {
