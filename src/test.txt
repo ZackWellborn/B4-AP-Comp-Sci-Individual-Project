@@ -1,6 +1,8 @@
 idk what programming language im going to use lmao
 
 to-do list and resources ig: 
+https://ai-solutions.com/_freeflyeruniversityguide/interplanetary_hohmann_transfe.htm 
+^^ big useful
 https://en.wikipedia.org/wiki/Hohmann_transfer_orbit
 https://en.wikipedia.org/wiki/Porkchop_plot
 
