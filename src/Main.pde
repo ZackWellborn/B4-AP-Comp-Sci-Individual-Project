@@ -40,10 +40,18 @@ void draw() {
   
 }
 
+//ok so i was doing all of this wrong i am now using the ai overview from google becuase the other one was wrong and weird :)
 void calcHT(int r1, int r2, int tl) { //tl is launch date tt is transfer time
   sma = (r1+r2)/2;
-  tTime = 2*pi*sqrt((sma^3)/mu); //transfer time
-  avTarget = ((360)/(2*pi))*sqrt((mu)/(r2^3)); //this is VERY questionable math but ill go with it - angular velocity of target
+  v1 = sqrt(mu/r1);
+  vTransfer1 = sqrt((2*mu)/r1 - mu/sma);
+  dv1 = vTransfer1-v1;
+  v2 = sqrt(mu/r2);
+  vTransfer2 = sqrt((2*mu)/r2 - mu/sma) ;
+  dv2 = v2 - vTransfer2;
+  return (dv1+dv2); //yuhhhhh
+  //tTime = 2*pi*sqrt((sma^3)/mu); //transfer time
+  //avTarget = ((360)/(2*pi))*sqrt((mu)/(r2^3)); //this is VERY questionable math but ill go with it - angular velocity of target
   
   
   
