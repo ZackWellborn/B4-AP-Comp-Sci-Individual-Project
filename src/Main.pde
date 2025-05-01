@@ -8,6 +8,7 @@
 //launch date and arrival date
 // big question: calcHT will have to be run on 2500 values
 //so Im going to have to get a tTime (transfer time) for every possible launch DATE
+//ok wrong vvvvvvv wrong tTime cannot be modified and tweaked its set based on the transfer - the date
 // no wait so have tTime and tLaunch be inputted
 
 
@@ -18,8 +19,11 @@
 //int rleo = 250 +re; //leo radius from center of earth; 250 is avg but maybe make this custom
 int mu = 1.32712440041279419*10²⁰; //mu of sun ig
 int angle = 0; //angle between the locations of the planets
-int sma = 0; //semi-major axis of the hohmann transfer (we're considering all orbits to be circles for simplicity rn)
+int sma = 0; //semi-major axis of the hohmann transfer (we're considering all orbits to be circles for simplicity rn
+int tTime = 0;
+int avTarget = 0;
 //note that distances of planets from the sun are measured in astronomical units (1.496e+8 km)
+//so uh. im going to  just place the planets at 45 90 135 180 225 270 315 360 degrees im kinda done
 Textbox[] boxes = new Textbox[1];
   int[][] graph= new int[50][50]; //plot the
 void setup() {
@@ -36,8 +40,11 @@ void draw() {
   
 }
 
-void calcHT(int r1, int r2, int tl, int tt) { //tl is launch date tt is transfer time
+void calcHT(int r1, int r2, int tl) { //tl is launch date tt is transfer time
   sma = (r1+r2)/2;
+  tTime = 2*pi*sqrt((sma^3)/mu); //transfer time
+  avTarget = ((360)/(2*pi))*sqrt((mu)/(r2^3)); //this is VERY questionable math but ill go with it - angular velocity of target
+  
   
   
 
