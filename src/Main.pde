@@ -2,9 +2,11 @@
 
 //variables: 
 int re = 6378; //earth radius
-int rleo = 250 +re; //leo radius from center of earth
-  Textbox[] boxes = new Textbox[1];
-  int[][] graph= new int[50][50];
+int rleo = 250 +re; //leo radius from center of earth; 250 is avg but maybe make this custom
+int angle = 0; //angle between the locations of the planets
+//note that distances of planets from the sun are measured in astronomical units (1.496e+8 km)
+Textbox[] boxes = new Textbox[1];
+  int[][] graph= new int[50][50]; //plot the
 void setup() {
  size(500,500); 
  background(0); 
